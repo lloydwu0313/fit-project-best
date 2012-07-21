@@ -1,0 +1,114 @@
+#include<iostream>
+#include<time.h>
+#include "vector"
+#include "string.h"
+using namespace std;
+
+typedef struct obj
+{
+	float attribute;
+}Obj;
+
+typedef struct cluster
+{
+	Obj mean;
+	vector <Obj> member; 
+}Cluster;
+
+void NewAve(Cluster &c);
+int k_mean(Cluster &c1,Cluster &c2,Obj T[],int size);
+float within_cluster_varation(Cluster c);
+void S_print(Cluster c);
+void main()
+{
+	Obj o_space[6];
+    o_space[0].attribute=6;
+	o_space[1].attribute=4;
+	o_space[2].attribute=3;
+	o_space[3].attribute=1;
+	o_space[4].attribute=2;
+	o_space[5].attribute=5;
+	cout<<"对象属性空间数据有:"<<endl;
+	for(int i=0;i<6;i++)
+	{
+	cout<<o_space[i].attribute<<ends;
+	}
+	 cout<<endl<<endl;
+	Cluster c[2];
+	c[0].member.push_back(o_space[0]);
+	c[1].member.push_back(o_space[1]);
+	c[0].mean=o_space[0];
+	c[1].mean=o_space[1];
+	int n =0;
+	while(1)
+	{
+		cout<<"第"<<++n<<"次"<<endl;
+		cout<<"第1类:"<<ends;
+		S_print(c[0]);
+		cout<<"平均值:"<<c[0].mean.attribute<<endl;
+		cout<<"第2类:"<<ends;
+		S_print(c[1]);
+		cout<<"平均值:"<<c[1].mean.attribute<<endl<<endl;
+		if(k_mean(c[0],c[1],o_space,sizeof(o_space)/sizeof(Obj))==1)
+			break;
+	}
+	cout<<"over!"<<endl;
+}
+
+int k_mean(Cluster &c1,Cluster &c2,Obj T[],int size)
+{
+	float pre_criterion_sum = within_cluster_varation(c1) + within_cluster_varation(c2);
+	c1.member.clear();
+	c2.member.clear();
+	for(int i=0;i<size;i++)
+	{
+		float a=(c1.mean.attribute - T[i].attribute)*(c1.mean.attribute - T[i].attribute);
+		float b=(c2.mean.attribute - T[i].attribute)*(c2.mean.attribute - T[i].attribute);
+		if(a<b)
+			c1.member.push_back(T[i]);
+		else
+			c2.member.push_back(T[i]);
+	}
+/*	float pre1,pre2;
+	pre1=c1.mean.attribute;
+	pre2=c2.mean.attribute;
+*/
+	float new_criterion_sum=within_cluster_varation(c1)+within_cluster_varation(c2);
+	int flag =0;
+	if(pre_criterion_sum ==new_criterion_sum)//此时已收敛
+		flag = 1;
+	else
+	{
+		flag = 0;          //仍需继续进行 所以求出新平均值
+    	NewAve(c1);
+    	NewAve(c2);
+	}
+	return flag;
+}
+
+void NewAve(Cluster &c)
+{
+	float sum=0.0;
+	int m=c.member.size();
+	for(int i=0;i<m;i++)
+	{
+		sum+=c.member[i].attribute;
+	}
+	c.mean.attribute=sum/m;
+}
+
+float within_cluster_varation(Cluster c)
+{
+	int num=c.member.size();
+	float criterion=0.0;
+	float ave=c.mean.attribute;
+	for(int i=0;i<num;i++)
+		criterion+=(c.member[i].attribute - ave) * (c.member[i].attribute - ave);
+	return criterion;
+}
+
+void S_print(Cluster c)
+{
+	for(int i=0;i<c.member.size();i++)
+		cout<<c.member[i].attribute<<ends;
+}
