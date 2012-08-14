@@ -1,0 +1,59 @@
+﻿生成启动时间为 2012/7/29 20:38:23。
+     1>项目“C:\Users\zacks\Desktop\花旗杯\huaqirbf-LiWei\huaqifir\huaqifir\huaqifir.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\huaqifir.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\tools\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt huaqi.cpp
+         huaqi.cpp
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(92): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(377): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(380): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(392): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(501): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(512): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(529): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(563): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(615): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(673): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(682): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(684): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(713): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(732): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(739): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(749): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\zacks\desktop\花旗杯\huaqirbf-liwei\huaqifir\huaqifir\huaqi.cpp(751): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\tools\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\tools\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zacks\Desktop\花旗杯\huaqirbf-LiWei\huaqifir\Debug\huaqifir.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\huaqifir.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\zacks\Desktop\花旗杯\huaqirbf-LiWei\huaqifir\Debug\huaqifir.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zacks\Desktop\花旗杯\huaqirbf-LiWei\huaqifir\Debug\huaqifir.lib" /MACHINE:X86 Debug\huaqifir.exe.embed.manifest.res
+         Debug\huaqi.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\huaqifir.exe.embed.manifest" /manifest Debug\huaqifir.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         huaqifir.vcxproj -> C:\Users\zacks\Desktop\花旗杯\huaqirbf-LiWei\huaqifir\Debug\huaqifir.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\huaqifir.unsuccessfulbuild”。
+         正在对“Debug\huaqifir.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\zacks\Desktop\花旗杯\huaqirbf-LiWei\huaqifir\huaqifir\huaqifir.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.84
