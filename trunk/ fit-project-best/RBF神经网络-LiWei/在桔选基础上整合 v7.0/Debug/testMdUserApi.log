@@ -1,0 +1,42 @@
+﻿生成启动时间为 2012/8/11 17:48:58。
+     1>项目“G:\used at present\项目\花旗\核心算法\在桔选基础上整合\testMdUserApi.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\testMdUserApi.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\MySQL\Connector C++ 1.1.0\include\cppconn" /I"D:\直接用的软件\boost1.39" /I"C:\Program Files\MySQL\Connector C++ 1.1.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt trade.cpp
+         trade.cpp
+     1>c:\program files\mysql\connector c++ 1.1.0\include\cppconn\sqlstring.h(23): warning C4251: “sql::SQLString::realStr”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“sql::SQLString”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\used at present\项目\花旗\核心算法\在桔选基础上整合\bin\testMdUserApi.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MySQL\Connector C++ 1.1.0\lib\debug" "C:\Program Files\MySQL\Connector C++ 1.1.0\lib\debug\mysqlcppconn.lib" "C:\Program Files\MySQL\Connector C++ 1.1.0\lib\debug\mysqlcppconn-static.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\testMdUserApi.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\used at present\项目\花旗\核心算法\在桔选基础上整合\bin\testMdUserApi.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\used at present\项目\花旗\核心算法\在桔选基础上整合\bin\testMdUserApi.lib" /MACHINE:X86 Debug\testMdUserApi.exe.embed.manifest.res
+         Debug\list.obj
+         Debug\main.obj
+         Debug\MdSpi.obj
+         Debug\trade.obj
+         Debug\TraderSpi.obj
+         ThostTraderApi\thostmduserapi.lib
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\testMdUserApi.exe.embed.manifest" /manifest Debug\testMdUserApi.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         testMdUserApi.vcxproj -> G:\used at present\项目\花旗\核心算法\在桔选基础上整合\bin\testMdUserApi.exe
+       PostBuildEvent:
+         copy .\ThostTraderApi\thosttraderapi.dll .\bin\
+         :VCEnd
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“Debug\testMdUserApi.unsuccessfulbuild”。
+         正在对“Debug\testMdUserApi.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\used at present\项目\花旗\核心算法\在桔选基础上整合\testMdUserApi.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.93
